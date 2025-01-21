@@ -12,8 +12,8 @@ The script has only been tested in a Linux Debian environment.
 ## Running
 
 - The file location of the output statistic csv is hard coded in statForFolder.py as output_file.
-- StatForFolder.py and StatForFile.py need to be in the same folder.
-- To start the script, just run the StatForFolder.py script, it will then call the StatForFile script itself.
+- statForFolder.py and statForFile.py need to be in the same folder.
+- To start the script, just run the statForFolder.py script, it will then call the statForFile script itself.
   The script starts looking for heritrix job folders, identifying them by their 14 digit timestamp folder name, starting from the folder the script is started from.
   So it speeds up the to navigate to the folder where the jobs lie before starting the script.
 
