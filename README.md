@@ -4,6 +4,7 @@ The web archiving crawler [heritrix](https://github.com/internetarchive/heritrix
 This script selects certain outputs of these log and reports files and writes the output as the line in a csv file.
 
 The values that are given out are 
+- size of the crawl (number of WARCs, size in bytes)
 - the number of successfully and unsuccessfully crawled urls and the ratio of unsuccessfully crawled urls, furthermore
 - the number of 2xx, 3xx, 4xx and 5xx HTTP responses and the single digit reponses that indicate a [heritrix error status](https://heritrix.readthedocs.io/en/latest/glossary.html#status-codes) and the ratio of errors indicated by these status codes
 
